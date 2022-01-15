@@ -32,6 +32,13 @@ a {
   font-weight: 600;
 }
 
+a:hover {
+  background-color: white;
+  color: #f4432c;
+  border: 5px solid #f4432c;
+  padding: 10px 25px;
+}
+
 h4 {
   font-size: 25px;
 }
@@ -175,4 +182,162 @@ footer {
   font-size: 18px;
   margin-top: 20px;
   margin-right: 10px;
+}
+
+/************************** 
+        Media Query
+***************************/
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  .mainHeading {
+    font-size: 45px;
+  }
+  .sec1right img {
+    width: 100%;
+  }
+
+  .sec2 {
+    margin: 80px 50px;
+  }
+
+  .gnrlHeading {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+    justify-items: center;
+  }
+
+  .product {
+    padding: 10px 10px 20px 10px;
+    box-shadow: 3px 3px 12px rgba(37, 37, 37, 0.356);
+    border-radius: 10px;
+  }
+
+  .bestpro {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2em;
+    row-gap: 2em;
+    justify-items: center;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .mainHeading {
+    font-size: 19px;
+  }
+  .sec1 {
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+    margin-bottom: 100px;
+  }
+  .mainHeading {
+    font-size: 30px;
+  }
+  .sec1right img {
+    width: 100%;
+  }
+  .seclogo img {
+    width: 15%;
+  }
+  .sec2 {
+    margin: 80px 50px;
+  }
+
+  .gnrlHeading {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .products {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
+    justify-items: center;
+  }
+
+  .product {
+    padding: 10px 10px 20px 10px;
+    box-shadow: 3px 3px 12px rgba(37, 37, 37, 0.356);
+    border-radius: 10px;
+  }
+
+  .bestpro {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 2em;
+    row-gap: 2em;
+    justify-items: center;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .mainHeading {
+    font-size: 16px;
+  }
+  .sec1 {
+    display: block;
+    margin-right: 20px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+    margin-bottom: 100px;
+  }
+  .sec1left,
+  .sec1right {
+    width: 100%;
+  }
+  .mainHeading {
+    font-size: 25px;
+  }
+  .sec1right img {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .seclogo img {
+    width: 100px;
+  }
+  .sec2 {
+    margin: 50px 0px;
+  }
+
+  .gnrlHeading {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .products {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
+    justify-items: center;
+  }
+
+  .product {
+    padding: 10px 10px 20px 10px;
+    box-shadow: 3px 3px 12px rgba(37, 37, 37, 0.356);
+    border-radius: 10px;
+  }
+  .crtvsec {
+    margin: 100px 0px;
+  }
+  .bestpro {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 2em;
+    row-gap: 2em;
+    justify-items: center;
+  }
 }
