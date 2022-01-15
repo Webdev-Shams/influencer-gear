@@ -21,6 +21,7 @@ body {
 .heading {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+  color: rgb(43, 43, 43);
 }
 
 a {
@@ -34,11 +35,84 @@ a {
 ***************************/
 header {
   text-align: center;
+  margin: 30px 0 100px 0;
 }
 .mainHeading {
   font-size: 21px;
 }
 
 /************************** 
-         Section One 
+      Section One 
 ***************************/
+.sec1 {
+  display: flex;
+  padding: 0 50px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 100px;
+  margin-bottom: 100px;
+}
+
+.sec1left,
+.sec1right {
+  width: 50%;
+}
+
+.sec1right img {
+  background-image: url(../images/Circle\ design.svg);
+  background-position: center;
+}
+
+/************************** 
+      Logo Section 
+***************************/
+.seclogo {
+  text-align: center;
+}
+
+.seclogo img {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+/************************** 
+      Section Two
+***************************/
+.sec2 {
+  margin: 100px 150px;
+}
+
+.gnrlHeading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+/************************** 
+      Creative Section
+***************************/
+.crtvsec {
+  margin: 100px 150px;
+}
+
+.bestpro {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.crtvsec .bestpro img {
+  width: 65%;
+}
+
+/************************** 
+        Footer
+***************************/
+footer {
+  text-align: center;
+}
