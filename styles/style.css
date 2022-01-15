@@ -2,3 +2,43 @@
          Google Fonts 
 ***************************/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800;900&family=Nunito:wght@300;400;500;600;700&display=swap");
+
+/************************** 
+         Primary Styles 
+***************************/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/************************** 
+      Header section 
+***************************/
+header {
+  text-align: center;
+}
+.mainHeading {
+  font-size: 21px;
+}
+
+/************************** 
+         Section One 
+***************************/
